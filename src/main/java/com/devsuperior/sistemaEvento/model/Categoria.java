@@ -3,7 +3,6 @@ package com.devsuperior.sistemaEvento.model;
 
 
 import com.github.f4b6a3.ulid.Ulid;
-import com.github.f4b6a3.ulid.UlidCreator;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -14,7 +13,7 @@ import jakarta.persistence.Table;
 @Table(name = "tb_categoria")
 public class Categoria {
     @Id
-    private Ulid id = UlidCreator.getUlid();
+    private Ulid id;
 
     @Column(columnDefinition ="TEXT")
     private String descricao;
