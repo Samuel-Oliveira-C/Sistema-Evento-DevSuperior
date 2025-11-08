@@ -1,8 +1,7 @@
 package com.devsuperior.sistemaEvento.model;
 
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
+
 
 import com.github.f4b6a3.ulid.Ulid;
 
